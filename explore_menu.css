@@ -1,0 +1,113 @@
+
+a.home{
+    display: block;
+    text-decoration: none;
+    color:white;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    height: 70px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    transition: transform 0.3s;
+    background: linear-gradient(326deg, #77b9f3, #7681eb, #c376eb, #eb76ea, #e96d6d);
+    background-size: 1000% 1000%;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    }
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+.home:hover{
+    transform: scale(1.05);
+}
+.container{
+    margin: 100px;
+    width: 1280px;
+    clear: both;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.exp{
+    margin: 10px;
+    height: 300px;
+    width: 300px ;
+    background-image: url(library/experience.jpg);
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.cont{
+    margin: 10px;
+    height: 300px;
+    width: 300px ;
+    background-image: url(library/contibution.jpg);
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.skl{
+    margin: 10px;
+    height: 300px;
+    width: 300px ;
+    background-image: url(library/skill.jpg);
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.proj{
+    margin: 10px;
+    height: 300px;
+    width: 300px ;
+    background-image: url(library/project.jpg);
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.exp:hover{
+    transform: scale(1.1);
+}
+.cont:hover{
+    transform: scale(1.1);
+}
+.proj:hover{
+    transform: scale(1.1);
+}
+.skl:hover{
+    transform: scale(1.1);
+}
+.a_ani{
+    clear: both;
+    position: relative;
+    top: 130px;
+    bottom: 130px;
+    text-decoration: solid;
+    text-shadow:black 1px 0 10px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.a_ani:hover{
+    color: black;
+    text-shadow:white 1px 0 10px;
+}
